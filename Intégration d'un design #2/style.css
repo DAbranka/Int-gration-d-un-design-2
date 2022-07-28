@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(220, 232, 243);
+  background-image: url("wave.svg");
+}
+
+div {
+  font-family: "League Spartan", sans-serif;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 0px 50px 10px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Illustration {
+  width: 250px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#Order_Summary {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+}
+
+#Bloc_txt {
+  font-size: 13px;
+  margin: -5px -18px 10px;
+  opacity: 50%;
+  word-spacing: 1px;
+  line-height: 18px;
+}
+
+#Bloc_Annual_Plan {
+  background-color: rgb(238, 242, 255);
+  padding: 1px 25px 1px;
+  border-radius: 12px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  box-shadow: inset;
+}
+
+#Icon {
+  width: 30px;
+  margin: 10px 0px 10px;
+}
+
+#Annual_Plan {
+  font-size: 10px;
+  margin: 10px 1px;
+}
+
+#Price {
+  font-size: 10px;
+  opacity: 50%;
+  margin: 5px;
+}
+
+#change {
+  font-size: 12px;
+  margin: auto;
+}
+
+a:hover {
+  color: red;
+}
+
+#proceed_to_payement {
+  text-align: center;
+  color: white;
+  background-color: blue;
+  margin: 20px 5px;
+  padding: 20px 5px 5px;
+  height: 30px;
+  width: 180px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bolder;
+}
